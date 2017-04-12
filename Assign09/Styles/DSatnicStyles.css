@@ -1,0 +1,29 @@
+﻿h2 {
+    font-family: Arial;
+}
+
+h6 {
+    font-family: Arial;
+    font-size: .5em;
+}
+
+@font-face {
+    font-family: 'Tangerine_Regular';
+    src: url('../Fonts/Tangerine_Regular.ttf') format('truetype');
+}
+
+.dsatnicFancyFont_Tangerine {
+    font-family: Tangerine_Regular;
+    font-size: 2em;
+}
+
+.wobbly {
+    transition: transform 22s ease;    
+    transform-origin: 5% 0%;
+    transform: scaleZ(1.1) scale(0.8) rotateX(16deg) rotateY(9deg) translateX(159px) skewX(-5deg);
+    transition-timing-function: linear;
+}
+
+.maxWidthForImage {
+    max-width: 900px;
+}
